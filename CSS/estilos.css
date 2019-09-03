@@ -1,0 +1,44 @@
+#arribita{
+    background: tomato;
+    width: 700px;
+    height: 400px;
+    border: 10px solid #887766;
+    margin: auto;
+
+}
+h1{
+    text-align: center;
+    background: turquoise;
+    color: tomato;
+    
+}
+p{
+    font-size: 25px;
+}
+footer{
+    width: 1000px;
+    height: 80px;
+    background: yellow;
+}
+#futer{
+    
+    color: blue;
+}
+nav{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+}
+
+a{
+    color: black;
+    font-size: 36px;
+}
+#enmedio{
+    background: blueviolet;
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+    color: aqua;
+    font-size: 25px;
+}
