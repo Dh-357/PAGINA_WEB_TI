@@ -1,4 +1,24 @@
 h1 {
     color: red;
     text-align: center;
+    font-size: 80px;
+}
+body {
+    background-color:black;
+}
+#menu_principal{
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    text-align: center;
+    font-size: 50px;
+}
+#b1_menu1,#b2_menu1,#b3_menu1{
+    background-color: black;
+    color: red;
+    font-size: 30px;
+}
+#el_loco{
+    position: absolute;
+    left: 100px;
 }

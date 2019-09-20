@@ -8,35 +8,17 @@
     <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
 </head>
 <body>
-    <h1 id="titulo">Javascript y jquery</h1>
-    <h2 id="demo">EJEMPLO DE CAMBIO DE TEXTO:</h2> 
-    <button type = button onclick = 'document.getElementById ("demo"). innerHTML = "HAS PRESIONADO EL BOTON¡¡¡" ,document.getElementById("titulo").style.fontSize = "50px"; '>Presiona aquí para cambiar texto</button>
- 
-    
-    <form action="html5-formularios.html" method="get" autocomplete>
 
-        <h3>Podemos hacer un formulario y despues mostrar los datos:</h3>
-        <label form="nombre">Nombre:</label>
-        <input id="nombre_input" name="nombre" type="text" value="" size="40" maxlength="10" pattern="[A-Za-z]{3}" 
-        placeholder="Nombre">
-        
-        <h3>Selecciona tu superheroe favorito</h3>
-        <label form="superh">Superheroes:</label>
-        <select id="seleccion_input" name="superh">
-        <option value="superman">Superman</option>
-        <option value="batman">Batman</option>
-        <option value="capitan america">Capitan america</option>
-        </select>
+    <h1 id="titulo">LECTURA DE TAROT</h1>
+    <img id="el_loco" src="recursos/el_loco.jpeg" width="300" height="400">
 
-
-        <h3>Presiona el boton para que tus datos aparescan en el TextArea</h3>
-        <textarea id="cajita" name="message" rows="10" cols="30">
-            Aqui apareceran tus datos si precionas el boton
-        </textarea>
-        <button type = button onclick = 'document.getElementById ("cajita").
-             innerHTML = "Te llamas:   "+document.getElementById("nombre_input").value
-             +"                Te gusta:  "+document.getElementById("seleccion_input").value
-             '>Presiona aquí para ver tus datos</button>
+    <div id="menu_principal" >
+            <input id="b1_menu1" type="button" value="HISTORIA DEL TAROT">
+            <br>
+            <input id="b2_menu1" type="button" value="TIRADA DE CARTAS">
+            <br>
+            <input id="b3_menu1" type="button" value="DESAFIAR">
+    </div>
 
 </body>
 
