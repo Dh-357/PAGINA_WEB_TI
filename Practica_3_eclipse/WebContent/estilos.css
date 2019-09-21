@@ -1,0 +1,44 @@
+h1,#bienvenido {
+    color: red;
+    text-align: center;
+    font-size: 80px;
+}
+h2{
+	position:absolute;
+	top:200px;
+	left:500px;
+	color:red;
+	text-align:center;
+}
+body {
+    background-color:black;
+}
+
+#el_loco,#el_sol{
+    position: absolute;
+    left: 100px;
+}
+
+
+form {
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    font-size: 50px;
+    text-align: right;
+    color: red;
+    
+}
+#formulario_2{
+	position:absolute;
+	left: 500px;
+	top: 300px;
+	text-align:left;
+	font-size: 30px;
+	color:red;
+}
+#boton_menu{
+	position:absolute;
+	top:200px;
+	left:400px;
+}
