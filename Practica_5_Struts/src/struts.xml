@@ -1,0 +1,13 @@
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true"/>
+	<package name="Practica_5_Struts" extends="struts-default">
+		<action name="Validar" method="accionar" class="com.daniel.action.Usuario">
+			<result name="success">/bienvenida.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+	</package>
+</struts>

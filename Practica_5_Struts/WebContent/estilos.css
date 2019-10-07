@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+	background-color:black;
+}
+h1{
+	color:red;
+	font-size:40px;
+	text-align:center;
+}
+#nombre{
+	color:red;
+	font-size:20px;
+	text-align:center;
+}
+#formulario{
+	position:absolute;
+	left: 300px;
+	top: 200px;
+	text-align:left;
+	font-size: 20px;
+	color:red;
+}
